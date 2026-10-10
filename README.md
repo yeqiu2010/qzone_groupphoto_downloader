@@ -16,15 +16,23 @@
 
 ## 目录
 
-- [功能特性](#功能特性)
-- [安装](#安装)
-- [使用方法](#使用方法)
-- [常见问题](#常见问题)
-- [工作原理](#工作原理)
-- [隐私说明](#隐私说明)
-- [免责声明](#免责声明)
-- [参与贡献](#参与贡献)
-- [许可证](#许可证)
+- [QQ群相册批量下载器](#qq群相册批量下载器)
+  - [目录](#目录)
+  - [功能特性](#功能特性)
+  - [安装](#安装)
+    - [前置条件](#前置条件)
+    - [方式一：一键安装](#方式一一键安装)
+    - [方式二：手动安装](#方式二手动安装)
+    - [必要的扩展授权](#必要的扩展授权)
+  - [使用方法](#使用方法)
+    - [步骤](#步骤)
+    - [面板参数说明](#面板参数说明)
+  - [常见问题](#常见问题)
+  - [工作原理](#工作原理)
+  - [隐私说明](#隐私说明)
+  - [免责声明](#免责声明)
+  - [参与贡献](#参与贡献)
+  - [许可证](#许可证)
 
 ---
 
@@ -55,14 +63,20 @@
 安装扩展后，打开以下链接即可自动识别安装：
 
 ```
-https://raw.githubusercontent.com/yeqiu2010/qzone-groupphoto-downloader/main/qzone-groupphoto-downloader.user.js
+https://raw.githubusercontent.com/yeqiu2010/qzone_groupphoto_downloader/master/qzone-groupphoto-downloader.user.js
+```
+
+或者greasyfork
+
+```
+https://greasyfork.org/zh-CN/scripts/599520-qq%E7%BE%A4%E7%9B%B8%E5%86%8C%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%99%A8
 ```
 
 > 已安装的脚本会在 Tampermonkey 面板中自动检查 `updateURL` 更新，无需重复安装。
 
 ### 方式二：手动安装
 
-1. 下载仓库中的 [`qzone-groupphoto-downloader.user.js`](./qzone-groupphoto-downloader.user.js)
+1. 下载仓库中的 [`qzone-groupphoto-downloader.user.js`](https://github.com/yeqiu2010/qzone_groupphoto_downloader/blob/master/qzone-groupphoto-downloader.user.js)
 2. 打开浏览器的扩展管理面板 → Tampermonkey → **添加新脚本 / 实用工具 → 导入**
 3. 或者：直接把文件内容粘贴进 Tampermonkey 的新建脚本编辑器，按 `Ctrl + S` 保存
 
@@ -89,6 +103,9 @@ https://raw.githubusercontent.com/yeqiu2010/qzone-groupphoto-downloader/main/qzo
    https://h5.qzone.qq.com/groupphoto/index?groupId=你的群号
    ```
 2. 页面右下角会出现 **QQ群相册批量下载器** 悬浮面板
+   
+   ![QQ群相册批量下载器](./img/QQ群相册批量下载器.png)
+
 3. 点击 **① 扫描相册** → 等待列表出现（每个相册默认勾选）
 4. 通过「全选 / 取消全选 / 反选」或直接勾选调整目标相册
 5. 选择模式并开始：
