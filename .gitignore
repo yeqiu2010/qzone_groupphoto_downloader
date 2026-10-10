@@ -1,0 +1,22 @@
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.workbuddy/
+.github/
+
+# 日志与临时文件
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# 本地覆盖不入库
+*.local.js
+*.bak
